@@ -3,4 +3,6 @@
 
 [About](index.md)
 
-[Abstracts](abstracts.md)
+[GP Abstracts](gp-abstracts.md)
+
+[BO Abstracts](bo-abstracts.md)

@@ -6,7 +6,7 @@
 
 協力してくれる方大歓迎です。
 
-当面は[Abstracts](abstracts.md)に気になった論文のアブストを訳したり補足したりして追加していきます。
+当面は[GP Abstracts](gp-abstracts.md), [BO Abstracts](bo-abstracts.md)に気になった論文のアブストを訳したり補足したりして追加していきます。
 
 ## author
 Tomofumi Nakayama [@txmy](http://twitter.com/txmy)
