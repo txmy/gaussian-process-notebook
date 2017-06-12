@@ -8,8 +8,17 @@
 
 当面は[GP Abstracts](gp-abstracts.md), [BO Abstracts](bo-abstracts.md)に気になった論文のアブストを訳したり補足したりして追加していきます。
 
-## author
-Tomofumi Nakayama [@txmy](http://twitter.com/txmy)
+## Gaussian Processについて参考にしているサイト
+
++ [The Gaussian Processes Web Site](http://www.gaussianprocess.org/)
++ [Gaussian Process Summer Schools](http://gpss.cc/)
+
+## 教本
+[上記のサイト](http://www.gaussianprocess.org/)より
+[Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/)
 
 ## github
 https://github.com/txmy/gaussian-process-notebook
+
+## author
+Tomofumi Nakayama [@txmy](http://twitter.com/txmy)
