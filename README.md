@@ -9,5 +9,8 @@
 # author
 Tomofumi Nakayama [@txmy](http://twitter.com/txmy)
 
-## github
+# website
+[Gaussian Process Notebook](http://gaussianprocess.jp/)
+
+# github
 https://github.com/txmy/gaussian-process-notebook
