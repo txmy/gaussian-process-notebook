@@ -10,10 +10,13 @@ Bayesian optimization (BO) methods are useful for optimizing functions that are 
 
 ベイズ最適化(BO)は数値を求めるのにコストがかかったり，解析的な表現ができなかったり，ノイズの影響を受けるような関数の最適化に役に立つ．BOは目的関数の確率的なモデルに依存し，典型的にはGaussian Process(GP)であり，その上で獲得関数(acquisition function)を構築する．この関数は最適化のプロセスの指針となり，新しい点の目的関数の値がどれだけ良いかを計る．GPは連続的な入力変数を仮定する．そうでない場合，例えば，整数値をとる変数がある場合，それはさらに近似を導入する必要がある．一般的には目的関数の値を計算するときに最も近い整数に丸め込むアプローチが取られる．この方法は最適化のプロセスにおいて問題を引き起こすことを示し，整数値の入力変数のためのより理論に基づいたアプローチを述べる．人工的なデータと実データの両方で我々のアプローチの有用性を調べ，整数値変数のstandard BOの結果が有意に改善することを示す．
 
-## COMBO: An Efficient Bayesian Optimization Library for Materials Science
+## COMBO: An Efficient Bayesian Optimization Library for Materials Science（マテリアルサイエンスのための効率のよいベイズ最適化ライブラリ）
+[2016 Materials Discovery]
 ### Author
 Tsuyoshi Ueno, Trevor David Rhone, Zhufeng Hou, Teruyasu Mizoguchi, Koji Tsuda
-
+### paper
+http://www.sciencedirect.com/science/article/pii/S2352924516300035
+https://doi.org/10.1016/j.md.2016.04.001
 ### Abstract
 In many subfields of chemistry and physics, numerous attempts have been made to accelerate scientific discovery by data-driven experimental design al- gorithms. Among them, Bayesian optimization has been proven as an effec- tive tool. A standard implementation (e.g., scikit-learn), however, can ac- commodate only small training data. We designed an efficient protocol for Bayesian optimization that employs Thompson sampling, random feature maps, one-rank Cholesky update and automatic hyperparameter tuning, and imple- mented it as an open-source python library called COMBO (COMmon Bayesian Optimization library). Promising results are presented in determination of atomic structure of a crystalline interface. COMBO is available at https://github.com/tsudalab/combo .
 
@@ -22,21 +25,24 @@ In many subfields of chemistry and physics, numerous attempts have been made to 
 ### 補足
 [COMBO](/notes/combo.md)
 
-## Taking the Human Out of the Loop: A Review of Bayesian Optimization
+## Taking the Human Out of the Loop: A Review of Bayesian Optimization（ベイズ最適化レビュー：人をループの外側へ）
+[2015 Proceedings of the IEEE]
 ### Author
 Bobak Shahriari, Kevin Swersky, Ziyu Wang, Ryan P. Adams, and Nando de Freitas
 ### Paper
-
+http://ieeexplore.ieee.org/document/7352306/
+DOI: 10.1109/JPROC.2015.2494218
 ### Abstract
 Big Data applications are typically associated with systems involving large numbers of users, massive complex software systems, and large-scale heterogeneous computing and storage architectures. The construction of such systems involves many distributed design choices. The end products (e.g., recommendation systems, medical analysis tools, real- time game engines, speech recognizers) thus involve many tunable configuration parameters. These parameters are often specified and hard-coded into the software by various developers or teams. If optimized jointly, these parameters can result in significant improvements. Bayesian optimization is a powerful tool for the joint optimization of design choices that is gaining great popularity in recent years. It promises greater automation so as to increase both product quality and human productivity. This review paper introduces Bayesian optimization, highlights some of its methodological aspects, and showcases a wide range of applications.
 
 ビッグデータの応用は，とても多くのユーザー，巨大で複雑なソフトウェアシステム，巨大な[ヘテロジニアス・コンピューティング](https://goo.gl/Lj6bpa)，ストレージアーキテクチャーに結びついている．そのシステムの構築には多くの分散的な設計選択を伴う．従って，その最終成果（例えば，レコメンデーションシステム，メディカル解析ツール，リアルタイムゲームエンジン，音声認識等）は多くのチューニングすべき設定パラメータを伴う．これらのパラメータは様々な開発者やチームにより，しばしばソフトウェアにhard-codeされている．もし，連帯的に最適化できたのであればこれらのパラメータは有意に改善する結果をもたらす．ベイズ最適化は近年非常に脚光を浴びている，設計選択の連帯最適化に強力なツールである．製品の質と人間の生産性の両方を高めるためによりよい自動化を保証する．このreview paperはベイズ最適化を紹介し，幾つかの方法的側面と，その広い範囲への応用をハイライトする．
 
-## Scalable Bayesian Optimization Using Deep Neural Networks
+## Scalable Bayesian Optimization Using Deep Neural Networks（ディープラーニングを用いたスケーラブルなベイズ最適化）
+[2015 PMLR]
 ### Author
 Jasper Snoek
 ### Paper
-http://videolectures.net/site/normal_dl/tag=1005113/icml2015_snoek_neural_networks_01.pdf
+http://proceedings.mlr.press/v37/snoek15.html
 ### Video
 http://videolectures.net/icml2015_snoek_neural_networks/
 ### Abstract
@@ -56,9 +62,12 @@ Bayesian optimization techniques have been successfully applied to robotics, pla
 ロボティクス，プランニング，センサー配置，レコメンデーション，広告，インテリジェントUI，自動アルゴリズム設計などの分野でベイズ最適化のテクニックは応用され，成功を収めている．一方で，そのアプローチは適度な次元に制限され，ベイズ最適化のいくつか研究集会ではベイズ最適化の高次元へのスケーリングは難しい問題であると考えられている．この論文では我々はこの問題にアタックするために，新しいRandom Embeddingのアイディアを導入する．それによって生まれたRandom EMbeddingベイズ最適化(REMBO) アルゴリズムはとてもシンプルであり，重要な不変性を持ち，カテゴリ変数と連続変数のどちらにも適応する．我々はREMBOの完全な理論解析を示す．また，REMBOは本質的な次元が小さい数十億次元の問題を効果的に解けることを実験的に確認する．その際，一般的な混合整数線形計画法の47個の離散パラメータの最適化において最新の結果を得ることも示される．
 
 ## Sparse Gaussian Processes for Bayesian Optimization（ベイズ最適化のためのスパースガウス過程）
+[2016 UAI'16 Proceedings of the Thirty-Second Conference on Uncertainty in Artificial Intelligence]
+### Author
+Mitchell McIntire, 	Daniel Ratner, 	Stefano Ermon
 ### Paper
 http://www.auai.org/uai2016/proceedings/papers/269.pdf
-
+http://dl.acm.org/citation.cfm?id=3021002
 ### Abstract
 Bayesian optimization schemes often rely on Gaussian processes (GP). GP models are very flexible, but are known to scale poorly with the number of training points. While several efficient sparse GP models are known, they have limitations when applied in optimization settings. We propose a novel Bayesian optimization framework that uses sparse online Gaussian processes. We introduce a new updating scheme for the online GP that accounts for our preference during optimization for regions with better performance. We apply this method to optimize the performance of a free-electron laser, and demonstrate empirically that the weighted updating scheme leads to substantial improvements to performance in optimization.
 
