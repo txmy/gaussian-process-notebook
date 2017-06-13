@@ -1,4 +1,15 @@
 # Bayesian Optimization Abstract book
+## Dealing with Integer-valued Variables in Bayesian Optimization with Gaussian Processes（ガウス過程を使った整数変数のベイズ最適化の扱いについて）
+[ICML 2017 AutoML Workshop]
+## Author
+Eduardo C. Garrido-Merchán, Daniel Hernández-Lobato
+## Paper
+https://arxiv.org/pdf/1706.03673v1.pdf
+## Abstract
+Bayesian optimization (BO) methods are useful for optimizing functions that are expensiveto evaluate, lack an analytical expression and whose evaluations can be contaminated by noise. These methods rely on a probabilistic model of the objective function, typically a Gaussian process (GP), upon which an acquisition function is built. This function guides the optimization process and measures the expected utility of performing an evaluation of the objective at a new point. GPs assume continous input variables. When this is not the case, such as when some of the input variables take integer values, one has to introduce extra approximations. A common approach is to round the suggested variable value to the closest integer before doing the evaluation of the objective. We show that this can lead to problems in the optimization process and describe a more principled approach to account for input variables that are integer-valued. We illustrate in both synthetic and a real experiments the utility of our approach, which significantly improves the results of standard BO methods on problems involving integer-valued variables.
+
+ベイズ最適化(BO)は数値を求めるのにコストがかかったり，解析的な表現ができなかったり，ノイズの影響を受けるような関数の最適化に役に立つ．BOは目的関数の確率的なモデルに依存し，典型的にはGaussian Process(GP)であり，その上で獲得関数(acquisition function)を構築する．この関数は最適化のプロセスの指針となり，新しい点の目的関数の値がどれだけ良いかを計る．GPは連続的な入力変数を仮定する．そうでない場合，例えば，整数値をとる変数がある場合，それはさらに近似を導入する必要がある．一般的には目的関数の値を計算するときに最も近い整数に丸め込むアプローチが取られる．この方法は最適化のプロセスにおいて問題を引き起こすことを示し，整数値の入力変数のためのより理論に基づいたアプローチを述べる．人工的なデータと実データの両方で我々のアプローチの有用性を調べ，整数値変数のstandard BOの結果が有意に改善することを示す．
+
 ## COMBO: An Efficient Bayesian Optimization Library for Materials Science
 ### Author
 Tsuyoshi Ueno, Trevor David Rhone, Zhufeng Hou, Teruyasu Mizoguchi, Koji Tsuda
