@@ -1,4 +1,13 @@
 # Gaussian Process Abstract book
+## Learning to Detect Sepsis with a Multitask Gaussian Process RNN Classifier（マルチタスクガウス過程RNN分類器を用いた敗血症検出の学習）
+[ICML 2017]
+### Author
+[Joseph Futoma, Sanjay Hariharan, Katherine Heller]
+### Paper
+https://arxiv.org/pdf/1706.04152.pdf
+### Abstract
+We present a scalable end-to-end classifier that uses streaming physiological and medication data to accurately predict the onset of sepsis, a life-threatening complication from infections that has high mortality and morbidity. Our pro- posed framework models the multivariate trajec- tories of continuous-valued physiological time series using multitask Gaussian processes, seam- lessly accounting for the high uncertainty, fre- quent missingness, and irregular sampling rates typically associated with real clinical data. The Gaussian process is directly connected to a black-box classifier that predicts whether a pa- tient will become septic, chosen in our case to be a recurrent neural network to account for the ex- treme variability in the length of patient encoun- ters. We show how to scale the computations as- sociated with the Gaussian process in a manner so that the entire system can be discriminatively trained end-to-end using backpropagation. In a large cohort of heterogeneous inpatient encoun- ters at our university health system we find that it outperforms several baselines at predicting sep- sis, and yields 19.4% and 55.5% improved ar- eas under the Receiver Operating Characteristic and Precision Recall curves as compared to the NEWS score currently used by our hospital.
+
 ## Scaling up the Automatic Statistician: Scalable Structure Discovery using Gaussian Processes（Automatic Statisticianのスケールアップ：ガウス過程を用いたスケーラブルな構造の発見）
 + [ArXiv, 2017]
 + [AutoML 2016, Journal of Machine Learning Research Workshop and Conference Proceedings. Practical Bayesian Nonparametrics Workshop, NIPS 2016. Oral & Travel Award. ]
