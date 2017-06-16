@@ -25,6 +25,8 @@ Hyunjik Kim, Yee Whye Teh
 ### Abstract
 Automating statistical modelling is a challenging problem that has far-reaching implications for artificial intelligence. The Automatic Statistician employs a kernel search algorithm to provide a first step in this direction for regression problems. However this does not scale due to its O(N3) running time for the model selection. This is undesirable not only because the average size of data sets is growing fast, but also because there is potentially more information in bigger data, implying a greater need for more expressive models that can discover finer structure. We propose Scalable Kernel Composition (SKC), a scalable kernel search algorithm, to encompass big data within the boundaries of automated statistical modelling.
 
+自動統計モデリングは人工知能に広く影響するチャレンジングな問題である．Automatic Statisticianは回帰の問題にこの方向で最初の一歩を提供するために，カーネルサーチアルゴリズムを採用している．しかし，これはモデル選択にO(n^3)の計算量がかかり，スケールしない．データセットの平均サイズはすぐに増えていくという理由からだけでなく，大きいデータにはより多くのデータが潜在しているという理由からも，スケールしないことは望ましくない．良い構造を見つけることができる，より表現豊かなモデルが必要である，ということである．我々はスケーラブルなカーネルサーチアルゴリズムである，Scalable Kernel Composition (SKC)を提案し，自動統計モデリングの領域をビッグデータを含む領域まで広げる．
+
 ## Online Sparse Gaussian Process Regression and Its Applications（オンラインスパースガウス過程回帰とその応用）
 [IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. 20, NO. 2, FEBRUARY 2011]
 
