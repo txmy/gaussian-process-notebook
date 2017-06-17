@@ -1,4 +1,20 @@
 # Gaussian Process Abstract book
+## A Review of Heteroscedasticity Treatment with Gaussian Processes and Quantile Regression Meta-models
+[Seeing Cities Through Big Data
+Part of the series Springer Geography pp 141-160
+Date: 08 October 2016]
+
+### Author
+Francisco Antunes , Aidan O’Sullivan, Filipe Rodrigues, Francisco Pereira
+
+### Paper
+https://link.springer.com/chapter/10.1007/978-3-319-40902-3_9
+
+### Abstract
+For regression problems, the general practice is to consider a constant variance of the error term across all data. This aims to simplify an often complicated model and relies on the assumption that this error is independent of the input variables. This property is known as homoscedasticity. On the other hand, in the real world, this is often a naive assumption, as we are rarely able to exhaustively include all true explanatory variables for a regression. While Big Data is bringing new opportunities for regression applications, ignoring this limitation may lead to biased estimators and inaccurate confidence and prediction intervals.
+This paper aims to study the treatment of non-constant variance in regression models, also known as heteroscedasticity. We apply two methodologies: integration of conditional variance within the regression model itself; treat the regression model as a black box and use a meta-model that analyzes the error separately. We compare the performance of both approaches using two heteroscedastic data sets.
+Although accounting for heteroscedasticity in data increases the complexity of the models used, we show that it can greatly improve the quality of the predictions, and more importantly, it can provide a proper notion of uncertainty or “confidence” associated with those predictions. We also discuss the feasibility of the solutions in a Big Data context.
+
 ## Learning to Detect Sepsis with a Multitask Gaussian Process RNN Classifier（マルチタスクガウス過程RNN分類器を用いた敗血症検出の学習）
 [ICML 2017]
 
