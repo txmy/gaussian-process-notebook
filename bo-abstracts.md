@@ -61,6 +61,9 @@ Bayesian optimization techniques have been successfully applied to robotics, pla
 
 ロボティクス，プランニング，センサー配置，レコメンデーション，広告，インテリジェントUI，自動アルゴリズム設計などの分野でベイズ最適化のテクニックは応用され，成功を収めている．一方で，そのアプローチは適度な次元に制限され，ベイズ最適化のいくつか研究集会ではベイズ最適化の高次元へのスケーリングは難しい問題であると考えられている．この論文では我々はこの問題にアタックするために，新しいRandom Embeddingのアイディアを導入する．それによって生まれたRandom EMbeddingベイズ最適化(REMBO) アルゴリズムはとてもシンプルであり，重要な不変性を持ち，カテゴリ変数と連続変数のどちらにも適応する．我々はREMBOの完全な理論解析を示す．また，REMBOは本質的な次元が小さい数十億次元の問題を効果的に解けることを実験的に確認する．その際，一般的な混合整数線形計画法の47個の離散パラメータの最適化において最新の結果を得ることも示される．
 
+### 補足
+[Bayesian Optimization in a Billion Dimensions via Random Embeddings](/notes/Bayesian_Optimization_in_a_Billion_Dimensions_via_Random_Embeddings.md)
+
 ## Sparse Gaussian Processes for Bayesian Optimization（ベイズ最適化のためのスパースガウス過程）
 [2016 UAI'16 Proceedings of the Thirty-Second Conference on Uncertainty in Artificial Intelligence]
 ### Author
