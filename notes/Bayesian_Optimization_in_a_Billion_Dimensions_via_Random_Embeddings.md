@@ -21,7 +21,7 @@ Bayesian optimization techniques have been successfully applied to robotics, pla
 5. 3と同様に$f(A{\bf y}_{t+1})$を探索する．
 6. 4,5を繰り返す
 
-![](/img/REMBO.png "rembo")
+![](/img/rembo.png "rembo")
 
 要するに，${\bf x}\in \mathbb{R}^D$は次元が大きすぎてBOで探索できないが，${\bf y}\in \mathbb{R}^d$であれば探索でき，スパース性（本質的な次元はとても小さいこと）を仮定するとランダムに埋め込んでその上で探索すれば問題ないということを論文中では解析的にも実験的にも示されている．
 
