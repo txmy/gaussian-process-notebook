@@ -1,4 +1,20 @@
 # Bayesian Optimization Abstract book
+
+## Multi-Task Bayesian Optimization(マルチタスクベイズ最適化)
+[NIPS 2013]
+
+### Author
+Kevin Swersky, Jasper Snoek, Ryan P. Adams
+
+### Paper
+http://papers.nips.cc/paper/5086-multi-task-bayesian-optimization.pdf
+http://papers.nips.cc/paper/5086-multi-task-bayesian-optimization
+
+### Abstract
+Bayesian optimization has recently been proposed as a framework for automatically tuning the hyperparameters of machine learning models and has been shown to yield state-of-the-art performance with impressive ease and efficiency. In this paper, we explore whether it is possible to transfer the knowledge gained from previous optimizations to new tasks in order to find optimal hyperparameter settings more efficiently. Our approach is based on extending multi-task Gaussian processes to the framework of Bayesian optimization. We show that this method significantly speeds up the optimization process when compared to the standard single-task approach. We further propose a straightforward extension of our algorithm in order to jointly minimize the average error across multiple tasks and demonstrate how this can be used to greatly speed up k-fold cross-validation. Lastly, we propose an adaptation of a recently developed acquisition function, entropy search, to the cost-sensitive, multi-task setting. We demonstrate the utility of this new acquisition function by leveraging a small dataset to explore hyperparameter settings for a large dataset. Our algorithm dynamically chooses which dataset to query in order to yield the most information per unit cost.
+
+近年ベイズ最適化は機械学習モデルのハイパーパラメータチューニングを自動的に行うフレームワークとして提案され，印象的な容易さと効率によってstate-of-the-artなパフォーマンスを示している．この論文では，より効率的に最適なハイパーパラメータを見つけるために，前のタスクの最適化の結果から情報を得て，次のタスクに活かすことができるかどうかを調べる．我々のアプローチはマルチタスクガウス過程をベイズ最適化のフレームワークに拡張することをベースとしている．スタンダードなシングルタスクのアプローチに比べて，この手法は有意に最適化のプロセスを高速化することを示す．さらに，マルチタスク間の平均誤差を一緒に最小化するために，我々のアルゴリズムの単純な拡張を行い，どのようにk-fold クロスバリデーションを大幅に高速化されるかを示す．最後に我々は近年開発された獲得関数であるエントロピーサーチをコストに敏感なマルチタスクな設定に適用する．巨大なデータセットのハイパーパラメータの設定に小さなデータセットを活用することによる新しい獲得関数の有用性を示す．我々のアルゴリズムは，1単位コストあたり最も多くの情報をもたらすためにどのデータセット選ぶかを動的に決める．
+
 ## Dealing with Integer-valued Variables in Bayesian Optimization with Gaussian Processes（ガウス過程を使った整数変数のベイズ最適化の扱いについて）
 [ICML 2017 AutoML Workshop]
 ### Author
