@@ -56,13 +56,19 @@ Big Data applications are typically associated with systems involving large numb
 ## Scalable Bayesian Optimization Using Deep Neural Networks（ディープラーニングを用いたスケーラブルなベイズ最適化）
 [2015 PMLR]
 ### Author
-Jasper Snoek
+Jasper Snoek, Oren Rippel, Kevin Swersky, Ryan Kiros, Nadathur Satish, Narayanan Sundaram, Md. Mostofa Ali Patwary, Prabhat, Ryan P. Adams
+
 ### Paper
 http://proceedings.mlr.press/v37/snoek15.html
+
 ### Video
 http://videolectures.net/icml2015_snoek_neural_networks/
+
 ### Abstract
 Bayesian optimization is an effective methodology for the global optimization of functions with expensive evaluations. It relies on querying a distribution over functions defined by a relatively cheap surrogate model. An accurate model for this distribution over functions is critical to the effectiveness of the approach, and is typically fit using Gaussian processes (GPs). However, since GPs scale cubically with the number of observations, it has been challenging to handle objectives whose optimization requires many evaluations, and as such, massively parallelizing the optimization. In this work, we explore the use of neural networks as an alternative to GPs to model distributions over functions. We show that performing adaptive basis function regression with a neural network as the parametric form performs competitively with state-of-the-art GP-based approaches, but scales linearly with the number of data rather than cubically. This allows us to achieve a previously intractable degree of parallelism, which we apply to large scale hyperparameter optimization, rapidly finding competitive models on benchmark object recognition tasks using convolutional networks, and image caption generation using neural language models.
+
+ベイズ最適化は値を求めるのにコストが掛かる関数の大域最適化のための有効な手法である．それは、値を求めるのに比較的コストの掛からない代わりのモデルによって定義された関数に対する分布を求めることによる手法である．関数上の分布の正確なモデルは，このアプローチの有効性にとって非常に重要であり，通常はガウス過程（GP）を使用してフィッティングする．しかし，GPは観測数によって cubically にスケールされるため，多くの評価を必要とする目的関数の最適化を扱うことは困難であり，最適化を大規模に並列化することも困難である．
+この論文では，関数の分布をモデル化するために，GPの代わりにニューラルネットワークを使用することを考える．パラメトリック形式としてニューラルネットワークを用いて適応基底関数回帰を行うと，state-of-the-artなGPベースのアプローチと競合する程度のパフォーマンスを発揮するが，データ数に対してcubicallyではなく線形にスケールことを示す．これにより，従来の困難であった並列化を達成することができる．大規模なハイパーパラメータの最適化に応用し，畳み込みネットワークを使用したベンチマーク用の物体認識タスクやニューラル言語モデルを使用したイメージキャプション生成において素早く競合するモデルを発見することを示す．
 
 ## Bayesian Optimization in a Billion Dimensions via Random Embeddings (Random Embeddingを使った10億次元のベイズ最適化)
 ### Author
