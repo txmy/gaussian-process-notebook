@@ -1,4 +1,17 @@
 # Bayesian Optimization Abstract book
+## Discovering and Exploiting Additive Structure for Bayesian Optimization(ベイズ最適化のための加法構造の発見と活用)
+[Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, PMLR 54:1311-1319, 2017.]
+### Author
+Jacob R. Gardner, Chuan Guo, Kilian Q. Weinberger, Roman Garnett, Roger Grosse
+
+### Paper
+http://proceedings.mlr.press/v54/gardner17a/gardner17a.pdf
+http://proceedings.mlr.press/v54/gardner17a.html
+
+### Abstract
+Bayesian optimization has proven invaluable for black-box optimization of expensive functions. Its main limitation is its exponential complexity with respect to the dimensionality of the search space using typical kernels. Luckily, many objective functions can be decomposed into additive subproblems, which can be optimized independently. We investigate how to automatically discover such (typically unknown) additive structure while simultaneously exploiting it through Bayesian optimization. We propose an efficient algorithm based on Metropolis-Hastings sampling and demonstrate its efficacy empirically on synthetic and real-world data sets. Throughout all our experiments we reliably discover hidden additive structure whenever it exists and exploit it to yield significantly faster convergence.
+
+値を求めるのにコストの掛かる関数のブラックボックス最適化にとって，ベイズ最適化は非常に重要であることが証明されている．その主な制限は，典型的なカーネルを用いた探索空間の次元に対して指数関数的に複雑になることである． 幸いにも，多くの目的関数を独立して最適化できる加法的な問題(additive subproblems)に分解することができる．このような（一般的には未知の）加法構造(additive structure)を自動的に発見し，それをベイズ最適化に活用する方法を調査する．Metropolis-Hastingsサンプリングに基づいた効果的なアルゴリズムを提案し，人工データおよび実世界のデータセットにその効果を経験的に示す．すべての実験を通して，隠れた加法構造が存在する場合は常に発見し，それを利用して有意に高速に収束することを示す．
 
 ## Multi-Task Bayesian Optimization(マルチタスクベイズ最適化)
 [NIPS 2013]
