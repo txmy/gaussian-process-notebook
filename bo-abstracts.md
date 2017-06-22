@@ -1,28 +1,4 @@
 # Bayesian Optimization Abstract book
-## Bayesian optimization of time perception(時間感覚のベイズ最適化)
-[Article in Trends in Cognitive Sciences · October 2013]
-
-### Author 
-Zhuanghua Shi, Russell M. Church, and Warren H. Meck
-
-### Paper
-http://dx.doi.org/10.1016/j.tics.2013.09.009
-https://www.researchgate.net/publication/258058783_Bayesian_optimization_of_time_perception
-
-### Abstract
-Precise timing is crucial to decision-making and behavioral control, yet subjective time can be easily distorted by various temporal contexts. Application of a Bayesian framework to various forms of contextual calibration reveals that, contrary to popular belief, contextual biases in timing help to optimize overall performance under noisy conditions. Here, we review recent progress in understanding these forms of temporal calibration, and integrate a Bayesian framework with information-processing models of timing. We show that the essential components of a Bayesian framework are closely related to the clock, memory, and decision stages used by these models, and that such an integrated framework offers a new perspective on distortions in timing and time perception that are otherwise difficult to explain.
-
-### Highlights
-+ A Bayesian framework can be applied to classic models of interval timing.
-+ Distortions in temporal memory can be explained by a Bayesian approach.
-+ A Bayesian analysis provides novel explanations of the scalar property of timing.
-+ Bayesian likelihood, prior, and loss functions explain temporal calibrations.
-
-+ ベイジアンフレームワークはインターバルタイミングの古典的なモデルに適用できる
-+ 一時記憶の歪みはベイジアンアプローチで説明できる
-+ ベイジアン分析によって時間のスカラー的性質の新しい説明ができる
-+ ベイズ尤度，事前確率，損失関数によって，時間の調整（測定）を説明できる．
-
 ## Discovering and Exploiting Additive Structure for Bayesian Optimization(ベイズ最適化のための加法構造の発見と活用)
 [Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, PMLR 54:1311-1319, 2017.]
 ### Author
