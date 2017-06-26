@@ -1,4 +1,28 @@
 # Gaussian Process Abstract book
+## Scalable Multi-Class Gaussian Process Classification using Expectation Propagation (期待値伝搬法を用いたスケーラブルなマルチクラスガウス過程分類）
+[arXiv:1706.07258]
+### Author
+Carlos Villacampa-Calvo, Daniel Hernandez-Lobato
+### Paper
+https://arxiv.org/pdf/1706.07258.pdf
+
+### Abstract
+This paper describes an expectation propagation (EP) method for multi-class classification with Gaussian processes that scales well to very large datasets. In such a method the estimate of the log-marginal-likelihood involves a sum across the data instances. This enables efficient training using stochastic gradients and mini-batches. When this type of training is used, the computational cost does not depend on the number of data instances N. Furthermore, extra assumptions in the approximate inference process make the memory cost independent of N. The consequence is that the proposed EP method can be used on datasets with millions of instances. We compare empirically this method with alternative approaches that approximate the required computations using variational inference. The results show that it performs similar or even better than these techniques, which sometimes give significantly worse predictive distributions in terms of the test log-likelihood. Besides this, the training process of the proposed approach also seems to converge in a smaller number of iterations.
+
+[期待値伝搬法(Expectation propagation, EP法)について](http://www.r.dl.itc.u-tokyo.ac.jp/~nakagawa/SML1/model-inf1.pdf)
+
+## Multi-task Gaussian Process Prediction
+[NIPS 2008]
+
+### Author
+EV Bonilla, KM Chai, C Williams
+
+### Paper
+http://papers.nips.cc/paper/3189-multi-task-gaussian-process-prediction.pdf
+
+### Abstract
+In this paper we investigate multi-task learning in the context of Gaussian Processes(GP). We propose a model that learns a shared covariance function on input-dependent features and a “free-form” covariance matrix over tasks. This allows for good flexibility when modelling inter-task dependencies while avoiding the need for large amounts of data for training. We show that under the assumption of noise-free observations and a block design, predictions for a given task only depend on its target values and therefore a cancellation of inter-task transfer occurs. We evaluate the benefits of our model on two practical applications: a compiler performance prediction problem and an exam score prediction task.  Additionally, we make use of GP approximations and properties of our model in order to provide scalability to large data sets.
+
 ## A Review of Heteroscedasticity Treatment with Gaussian Processes and Quantile Regression Meta-models
 [Seeing Cities Through Big Data
 Part of the series Springer Geography pp 141-160
