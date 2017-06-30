@@ -1,4 +1,16 @@
 # Bayesian Optimization Abstract book
+## On the choice of the low-dimensional domain for global optimization via random embeddings（ランダム埋め込みを用いた大域最適化のための低次元領域の選択について）
+[arXiv 2017 preprint]
+### Author
+Binois, M., Ginsbourger D. & Roustant, O.
+### Paper
+https://arxiv.org/abs/1704.05318
+
+### Abstract
+The challenge of taking many variables into account in optimization problems may be overcome under the hypothesis of low effective dimensionality. Then, the search of solutions can be reduced to the random embedding of a low dimensional space into the original one, resulting in a more manageable optimization problem. Specifically, in the case of time consuming black-box functions and when the budget of evaluations is severely limited, global optimization with random embeddings appears as a sound alternative to random search. Yet, in the case of box constraints on the native variables, defining suitable bounds on a low dimensional domain appears to be complex. Indeed, a small search domain does not guarantee to find a solution even under restrictive hypotheses about the function, while a larger one may slow down convergence dramatically. Here we tackle the issue of low-dimensional domain selection based on a detailed study of the properties of the random embedding, giving insight on the aforementioned difficulties. In particular, we describe a minimal low-dimensional set in correspondence with the embedded search space. We additionally show that an alternative equivalent embedding procedure yields simultaneously a simpler definition of the low-dimensional minimal set and better properties in practice. Finally, the performance and robustness gains of the proposed enhancements for Bayesian optimization are illustrated on three examples.
+
+最適化問題において，多くの変数を考慮するという課題は，有効次元が低いという仮説の下で克服することができる。次に，解の探索は，低次元空間を元の空間にランダムに埋め込むことに減らすことができ，その結果，より扱いやすい最適化問題になる．具体的には，計算コストのかかるブラックボックス関数の場合や，関数の値を求める回数が厳しく制限されている場合，ランダムな埋め込みを伴う大域最適化は，ランダム探索の健全な代替として見える．しかし，元の変数の存在する長方形領域において，低次元領域上の適切な境界を定義することは複雑である．実際，探索領域が小さいと，関数の制限的仮定の下でも解を見つかることは保証されず，探索領域が大きいと，収束を急激に遅くする可能性がある．ここでは，ランダムな埋め込みの性質の詳細な調査に基づいて，低次元空間の領域の選択の問題に取り組み，前述の困難を考察する．特に，埋め込まれた探索空間に対応する最小の低次元集合を述べる．さらに，同等の代替埋め込みの手順によって，低次元最小集合のより簡単な定義と実際のより良い特性が同時に得られることがさらに示される．最後に，提案されたベイズ最適化の改善手法のパフォーマンスとrobustnessの向上を3つの例で示す．
+
 ## Ensemble Bayesian Optimization(アンサンブルベイズ最適化)
 [arXiv:1706.01445 (preprint)]
 
