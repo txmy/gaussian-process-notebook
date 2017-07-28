@@ -1,4 +1,12 @@
 # Gaussian Process Abstract book
+## Gaussian Process Dynamical Models
+Wang, Jack, Aaron Hertzmann, and David M. Blei. "Gaussian process dynamical models." Advances in neural information processing systems. 2006.
+## Paper
+http://papers.nips.cc/paper/2783-gaussian-process-dynamical-models.pdf
+### Abstract
+This paper introduces Gaussian Process Dynamical Models (GPDM) for nonlinear time series analysis. A GPDM comprises a low-dimensional latent space with associated dynamics, and a map from the latent space to an observation space. We marginalize out the model parameters in closed-form, using Gaussian Process (GP) priors for both the dynamics and the observation mappings. This results in a nonparametric model for dynamical systems that accounts for uncertainty in the model. We demonstrate the approach on human motion capture data in which each pose is 62-dimensional. Despite the use of small data sets, the GPDM learns an effective representation of the nonlinear dynamics in these spaces. Webpage: http://www.dgp.toronto.edu/∼jmwang/gpdm/
+本稿では非線形時系列解析のためのGaussian Process Dynamical Models（GPDM）を紹介する． GPDMは関連ダイナミクスを伴う低次元の潜在空間と，その潜在空間から観測空間への写像を含む． 我々は，ダイナミクスと観測マッピングの両方にGaussian Process（GP）の事前分布を用いて，closed-form(閉形式)でモデルパラメーターを取り除く． これにより，モデルの不確定性を考慮する動的システムのノンパラメトリックモデルが生成される．各姿勢が62次元である人間のモーションキャプチャデータに対するアプローチを示す．小さなデータセットにもかかわらず，GPDMはこれらの空間における非線形ダイナミクスの効果的な表現を学習する． ウェブページ：http://www.dgp.toronto.edu/~jmwang/gpdm/
+
 ## Scalable Multi-Class Gaussian Process Classification using Expectation Propagation (期待値伝搬法を用いたスケーラブルなマルチクラスガウス過程分類）
 [arXiv:1706.07258]
 ### Author
